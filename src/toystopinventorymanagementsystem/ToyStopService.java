@@ -109,10 +109,10 @@ public class ToyStopService implements Serializable {
             myToy.setAddedOn(LocalDateTime.now());
             toys.add(myToy);
             
-            Random randStore = new Random();
-            int index = randStore.nextInt(stores.size());
-            Store selectedStore = (Store)stores.get(index);
-            selectedStore.addToy(myToy);
+            //Random randStore = new Random();
+            //int index = randStore.nextInt(stores.size());
+            //Store selectedStore = (Store)stores.get(index);
+            //selectedStore.addToy(myToy);
                           
             return myToy.getUID();
     }

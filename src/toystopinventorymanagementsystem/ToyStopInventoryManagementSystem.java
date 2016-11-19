@@ -76,14 +76,14 @@ public class ToyStopInventoryManagementSystem implements Serializable{
 	 	      // Statements
 	 		  //   ADD A NEW STORE 
 	 		  int b = tsims.tsService.addStore();
-	 		 System.out.print("Store added: "+b);
+	 		  System.out.print("Store added: "+b);
 	 	      break; // optional
 	 	   
 	 	   case 3 :
 	 	      // Statements
 	 		  //   ADD NEW EMPLOYEE
 	 		  int a = tsims.tsService.addEmployee();
-	 		 System.out.print("Employee Added: "+a);
+	 		  System.out.print("Employee Added: "+a);
 	 	      break; // optional
 	 	      
 	 	  case 4 :

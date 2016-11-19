@@ -1,0 +1,7 @@
+Description:
+
+In this lab we tried to learn the concept of serialization and deserialization. 
+The classes - employee, Toys and Stores were made serializable so that their objects are saved in a byte stream.
+This helps as we simply get the data from the .ser file as it will loose data everytime initializing.
+
+Github: https://github.com/amna5297/lab7
